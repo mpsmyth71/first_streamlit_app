@@ -22,4 +22,4 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 streamlit.dataframe(fruits_to_show)
 
-streamlit.text(fruityvice_response)
+streamlit.header("Fruityvice Fruit Advice!")
